@@ -1,0 +1,53 @@
+/*HEADER*/
+
+#header-nav {
+  background-color: silver;
+  }
+
+.navbar-brand {
+	padding-top: 18px;
+	margin-left: 30px;
+}
+
+.navbar-brand h1 { /* Site name */
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.5;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list a {
+  color: black;
+  border: solid 1px black;
+  background-color: white;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background-color: silver;
+}
+
+/*END HEADER*/
+
+/*HOME PAGE*/
+#menu-categories-title {
+	margin-bottom: 25px;
+}
+
+#chicken-box, #beef-box, #sushi-box {
+	background-color: grey;
+	margin-bottom: 25px;
+	color: black
+}
+
+.container-fluid {
+    margin: 15px;
+}
+
+/*END HOME PAGE*/
