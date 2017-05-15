@@ -1,54 +1,66 @@
-/*HEADER*/
-
-#header-nav {
-  background-color: silver;
-  border: none;
-  }
-
-.navbar-brand {
-	padding-top: 18px;
-	margin-left: 30px;
+header {
+	margin-top: 100px;
 }
 
-.navbar-brand h1 { /* Site name */
-  font-family: 'Lora', serif;
-  color: black;
-  font-size: 1.5em;
-  font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 0.5;
-}
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
+h1 {
+	font-family: "Comfortaa";
+	margin-bottom: 25px;
 }
 
-#nav-list a {
-  color: black;
-  border: solid 1px black;
-  background-color: white;
+.cover-pics {
+    text-align: center;
+}
+
+.cover-pics img {
+	height: 200px;
+	width: 200px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 100%;
+}
+
+.cover-pics img:hover {
+	    box-shadow: 0px 0px 3px 3px grey;
+}
+
+/*.round {
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 100%;
+  }*/
+
+#en, #to, #tre {
+	margin-top: 25px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #DDDDDD;
   text-align: center;
 }
 
-#nav-list a:hover {
-  background-color: silver;
+
+/***********SPROG****************/
+
+span {
+	padding-left: 50px;
 }
 
-/*END HEADER*/
-
-/*HOME PAGE*/
-#menu-categories-title {
-	margin-bottom: 25px;
+.billed-spalter {
+	border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 100%;
+    margin-bottom: 10px;
 }
 
-#chicken-box, #beef-box, #sushi-box {
-	background-color: grey;
-	margin-bottom: 25px;
-	color: black
+.title {
+	font-size: 1.8em;
+	font-family: "Comfortaa";
 }
-
-.container-fluid {
-    margin: 15px;
-}
-
-/*END HOME PAGE*/
