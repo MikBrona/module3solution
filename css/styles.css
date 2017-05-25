@@ -1,5 +1,5 @@
 header {
-	margin-top: 100px;
+	margin-top: 75px;
 }
 
 h1 {
@@ -24,15 +24,9 @@ h1 {
 	    box-shadow: 0px 0px 3px 3px grey;
 }
 
-/*.round {
-    border-color: black;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 100%;
-  }*/
-
 #en, #to, #tre {
 	margin-top: 25px;
+	color: grey;
 }
 
 .footer {
@@ -52,7 +46,7 @@ span {
 	padding-left: 50px;
 }
 
-.billed-spalter {
+.billed-spalter img {
 	border-color: black;
     border-width: 3px;
     border-style: solid;
@@ -60,7 +54,32 @@ span {
     margin-bottom: 10px;
 }
 
+.billed-spalter img:hover {
+	    box-shadow: 0px 0px 3px 3px grey;
+}
 .title {
 	font-size: 1.8em;
 	font-family: "Comfortaa";
+	display: inline;
 }
+
+.foreign-title {
+	float: right;
+	padding: 35px; 
+	font-size: 25px;
+	font-family: "Comfortaa";
+	color: grey;
+	display: inline-block;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+
+/*******************Historie*********************/
